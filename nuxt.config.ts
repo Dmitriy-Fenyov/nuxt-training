@@ -2,5 +2,8 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/main.scss']
+  css: ['~/assets/main.scss'],
+  app: {
+    baseURL: "/reponame/",
+  },
 })
