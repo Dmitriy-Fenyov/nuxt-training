@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/main.scss'],
   app: {
-    baseURL: "/reponame/",
+    baseURL: "/nuxt-training/",
   },
 })
